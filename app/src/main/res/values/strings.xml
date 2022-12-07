@@ -1,3 +1,53 @@
 <resources>
     <string name="app_name">LearnChinese</string>
+
+    <!-- Page d\'accueil-->
+    <string name="home_page_title">Bienvenue !</string>
+    <string name="home_page_section">Nos rubriques</string>
+    <string name="home_page_section_name">Nom de la rubrique</string>
+    <string name="home_page_section_description">Description de la rubrique</string>
+
+    <!-- Page d\'inscription'-->
+    <string name="sign_up_page_title">Inscris toi pour suivre ton évolution</string>
+    <string name="sign_up_page_upload_button">Photo de profil</string>
+    <string name="sign_up_page_name">Nom</string>
+    <string name="sign_up_page_surname">Prénom</string>
+    <string name="sign_up_page_age">Age</string>
+    <string-array name="sign_up_page_level">Niveau
+        <item>Niveau : débutant</item>
+        <item>Niveau : initié</item>
+        <item>Niveau : avancé</item>
+    </string-array>
+    <string name="sign_up_page_mail">Mail</string>
+    <string name="sign_up_page_password">Création du mot de passe</string>
+    <string name="sign_up_page_confirm_button">Confirmer l\'inscription</string>
+
+    <!-- Page de connexion'-->
+    <string name="sign_in_page_title">Se connecter</string>
+    <string name="sign_in_page_mail">Mail</string>
+    <string name="sign_in_page_password">Entrer le mot de passe</string>
+    <string name="sign_in_page_confirm_button">Connexion</string>
+
+    <!-- Page de challenge-->
+    <string name="challenge_page_title">Challenge</string>
+    <string name="challenge_page_section1">C\'est le moment de tout donner !</string>    <!-- Page de challenge-->
+
+
+    <!-- Page de cours-->
+    <string name="curse_page_title">Apprendre</string>
+    <string name="curse_page_section">Commençons par la base</string>
+
+    <!-- Page exo1 cours1-->
+    <string name="exercices_type1_page_title">Exercices</string>
+    <string name="exercices_page_section">C\'est le moment de s\'entraîner</string>
+
+    <!-- Page exo2 cours1-->
+    <string name="exercices_type2_page_title">Exercices</string>
+    <string name="exercices_type2_section">Bien joué ! On continue</string>
+
+    <!-- Page exo3 cours1-->
+    <string name="exercices_type3_page_title">Exercices</string>
+    <string name="exercices_type3_section">Bravo !</string>
+
+
 </resources>

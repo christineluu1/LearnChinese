@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.LearnChinese" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.LearnChinese" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimary">@color/gold_logo</item> <!-- a verifier si bon -->
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -13,4 +13,29 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+
+    <!-- Creation du composant titre par defaut. -->
+    <style name = "DefaultTextStyle">
+        <item name="android:textColor">@color/gold_logo</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/LTC Record Title W00 Regular</item>
+    </style>
+
+
+
+    <!-- Creation du composant sous-titre par defaut. -->
+    <style name = "SubtitleTextStyle" parent= "DefaultTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/Kanit</item>
+    </style>
+
+    <!-- Creation du composant sous-titre par defaut. -->
+    <style name = "TitleTextStyle" parent= "SubtitleTextStyle">
+        <item name="android:textColor">@color/dark_grey</item>
+        <item name="android:fontFamily">@font/Kanit</item>
+        <item name="android:textSize">26sp</item>
+
+    </style>
+
 </resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fichier de ressources pour permettre d'appliquer plus facilement les dimensions aux différentes pages-->
+
+<resources>
+    <dimen name="default_margin">20dp</dimen>
+</resources>
