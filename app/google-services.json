@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "292126664584",
+    "project_id": "learnchinesefirebase",
+    "storage_bucket": "learnchinesefirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292126664584:android:21874a441e02d29b2a3c3d",
+        "android_client_info": {
+          "package_name": "c.c.c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_is8VAby_6mv1kW3NBY0teRy--6Tr2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292126664584:android:b52612a9df241aef2a3c3d",
+        "android_client_info": {
+          "package_name": "com.esme.LearnChinese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_is8VAby_6mv1kW3NBY0teRy--6Tr2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292126664584:android:a18495d8ef3332f32a3c3d",
+        "android_client_info": {
+          "package_name": "com.esme.Learnchinese"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0_is8VAby_6mv1kW3NBY0teRy--6Tr2Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292126664584-lkjag4naf81vgj47rb1u89pipfd2mr5k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

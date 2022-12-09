@@ -1,4 +1,4 @@
-package com.example.learnchinese.fragments;
+/*package com.example.learnchinese.fragments;
 
 import android.app.Activity;
 import android.view.View;
@@ -38,4 +38,4 @@ public class HomeFragment extends Fragment {
     public void onDetach() {
         super.onDetach();
     }
-}
+}*/

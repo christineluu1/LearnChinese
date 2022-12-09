@@ -23,21 +23,52 @@ match_parent : prend toute la taille de l'élément parent
 200dp -->
 
     <TextView
+        android:id="@+id/sub_app_title"
+        style ="@style/Default_Sub_TextStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_app_name"
+        app:layout_constraintStart_toStartOf="@+id/app_title"
+        app:layout_constraintTop_toBottomOf="@+id/app_title"
+        />
+<!-- creation du fragment/gros bloc ou on va mettre nos contenus-->
+
+    <!--
+    <TextView
         android:id="@+id/page_title"
         style ="@style/TitleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/home_page_title"
-        app:layout_constraintStart_toStartOf="@+id/app_title"
-        app:layout_constraintTop_toBottomOf="@+id/app_title"
+        app:layout_constraintStart_toStartOf="@+id/sub_app_title"
+        app:layout_constraintTop_toBottomOf="@+id/sub_app_title"
         />
-<!-- creation du fragment/gros bloc ou on va mettre nos contenus-->
+-->
 
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="120dp">
+<!--
+        <Button
+            android:id="@+id/go"
+            android:layout_width="166dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/app_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="454dp"
+            android:layout_height="96dp"
+            android:text="fiewfih
+            fewjfiewfiohewiewhfihweifhweifhwei[fwef
+            fewhfiewhwifhiwhfiow"
+            android:textSize="40px" />
+
+            -->
+
     </FrameLayout>
         <!--android:background="@color/light_grey" pour donner une couleur au bloc -->
 

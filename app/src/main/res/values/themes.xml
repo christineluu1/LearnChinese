@@ -16,26 +16,40 @@
 
 
     <!-- Creation du composant titre par defaut. -->
-    <style name = "DefaultTextStyle">
+    <style name="DefaultTextStyle">
         <item name="android:textColor">@color/gold_logo</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:fontFamily">@font/LTC Record Title W00 Regular</item>
+        <item name="android:fontFamily">@font/ltc_record</item>
+    </style>
+
+    <style name="Default_Sub_TextStyle">
+        <item name="android:textColor">@color/gold_logo</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/ltc_record</item>
     </style>
 
 
-
     <!-- Creation du composant sous-titre par defaut. -->
-    <style name = "SubtitleTextStyle" parent= "DefaultTextStyle">
+    <style name="SubtitleTextStyle" parent="DefaultTextStyle">
         <item name="android:textColor">@color/black</item>
-        <item name="android:fontFamily">@font/Kanit</item>
+        <item name="android:fontFamily">@font/kkanit</item>
     </style>
 
     <!-- Creation du composant sous-titre par defaut. -->
-    <style name = "TitleTextStyle" parent= "SubtitleTextStyle">
+    <style name="TitleTextStyle" parent="SubtitleTextStyle">
         <item name="android:textColor">@color/dark_grey</item>
-        <item name="android:fontFamily">@font/Kanit</item>
+        <item name="android:fontFamily">@font/kkanit</item>
         <item name="android:textSize">26sp</item>
 
     </style>
+
+    <style name="Theme.LearnChinese.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LearnChinese.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LearnChinese.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
