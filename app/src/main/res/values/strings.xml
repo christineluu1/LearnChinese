@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">LearnChinese</string>
+    <string name="sub_app_name">Apprenez facilement le chinois</string>
 
     <!-- Page d\'accueil-->
     <string name="home_page_title">Bienvenue !</string>
@@ -9,7 +10,7 @@
 
     <!-- Page d\'inscription'-->
     <string name="sign_up_page_title">Inscris toi pour suivre ton évolution</string>
-    <string name="sign_up_page_upload_button">Photo de profil</string>
+    <string name="sign_up_page_upload_button">Photo de profil</string>·
     <string name="sign_up_page_name">Nom</string>
     <string name="sign_up_page_surname">Prénom</string>
     <string name="sign_up_page_age">Age</string>
