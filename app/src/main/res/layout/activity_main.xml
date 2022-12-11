@@ -31,7 +31,6 @@ match_parent : prend toute la taille de l'élément parent
         app:layout_constraintStart_toStartOf="@+id/app_title"
         app:layout_constraintTop_toBottomOf="@+id/app_title"
         />
-<!-- creation du fragment/gros bloc ou on va mettre nos contenus-->
 
     <TextView
         android:id="@+id/page_title"
@@ -49,6 +48,7 @@ match_parent : prend toute la taille de l'élément parent
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="120dp">
+
     </FrameLayout>
         <!--android:background="@color/light_grey" pour donner une couleur au bloc -->
 
